@@ -1,4 +1,4 @@
-body{
-    background-color: green;
-}
+@import "./utils/variables";
+@import "./based/normalize";
+@import "./components/page-header";
 
