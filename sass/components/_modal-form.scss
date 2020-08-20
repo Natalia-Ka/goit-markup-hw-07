@@ -127,7 +127,7 @@
     flex-direction: column;
     text-align: left;
     font-size: 12px;
-    font-family: Roboto;
+    font-family: $font-family-text;
     margin-bottom: 20px;
 }
 
@@ -141,7 +141,7 @@ textarea{
 .modal-form-comment::placeholder{
     display: inline-block;
     letter-spacing: 0.01em;
-    font-family: Roboto;
+    font-family: $font-family-text;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
