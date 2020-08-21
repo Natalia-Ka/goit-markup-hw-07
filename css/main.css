@@ -292,19 +292,19 @@ img {
   display: block;
 }
 
-.main-nav, .section, .footer {
+.main-nav, .features, .section, .footer {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
-.section {
+.features, .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-list, .site-nav, .contacts-nav, .features-list, .work-list, .about-us-list, .about-us-sm, .client-list, .footer-social {
+.site-nav, .contacts-nav, .features-list, .work-list, .about-us-list, .about-us-sm, .client-list, .footer-social {
   padding: 0;
   margin: 0;
   list-style: none;
