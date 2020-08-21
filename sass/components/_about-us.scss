@@ -3,6 +3,10 @@
     @extend %section;
 }
 
+.about-us-title{
+    @extend %title;
+}
+
 .about-us-subtitle{
     font-weight: 500;
     font-size: 16px;

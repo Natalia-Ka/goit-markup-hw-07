@@ -1,6 +1,10 @@
-.section{
+.work{
     @extend %container;
     @extend %section;
+}
+
+.work-title{
+    @extend %title;
 }
 
 .work-description{

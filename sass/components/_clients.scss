@@ -1,6 +1,5 @@
-.section{
-    @extend %container;
-    @extend %section;
+.client-title{
+    @extend %title;
 }
 
 .client-list{
