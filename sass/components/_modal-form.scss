@@ -53,12 +53,13 @@
     border-radius: 50%;
     border: 1px solid $border-icon-color;
     padding: 6px;
+
+    &:hover,
+    &:focus{
+        fill: $accent-color;
+    }
 }
 
-.icon-close:hover,
-.icon-close:focus{
-    fill: $accent-color;
-}
 
 .modal-title{
    font-weight: bold;
@@ -206,11 +207,12 @@ textarea{
     background-color: $accent-color;
     text-decoration: none;
     border-width: 0;
+
+    &:hover,
+    &:focus{
+        background-color: $accent-color;
+    }
 }
 
-.btn-submit:hover,
-.btn-submit:focus{
-    background-color: $accent-color;
-}
 
 

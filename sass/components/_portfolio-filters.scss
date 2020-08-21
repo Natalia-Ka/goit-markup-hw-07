@@ -17,13 +17,13 @@
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);   
-}
 
-.portfolio-filters-link:hover,
-.portfolio-filters-link:focus{
-    background-color: $accent-color;
-    color: $primary-white-color;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+    &:hover,
+    &:focus{
+        background-color: $accent-color;
+        color: $primary-white-color;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+    }
 }
 
 .portfolio-filters{

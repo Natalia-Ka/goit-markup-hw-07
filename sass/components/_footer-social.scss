@@ -24,12 +24,6 @@
     fill: currentColor;
 }
 
-.sm-link:hover,
-.sm-link:focus{
-    background-color: $accent-color;
-    color: $primary-white-color;
-}
-
 .sm-link{
     display: flex;
     width: 44px;
@@ -43,6 +37,12 @@
     transition-property: $background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        background-color: $accent-color;
+        color: $primary-white-color; 
+    }
 }
 
 .footer-social .item-sm:not(:last-child){

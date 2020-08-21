@@ -46,9 +46,9 @@
     background-color: $accent-color;
     text-decoration: none;
     border-width: 0;
-}
 
-.btn-hero:hover,
-.btn-hero:focus{
-   background-color: $accent-color;  
+    &:hover,
+    &:focus{
+        background-color: $accent-focus-color;
+    }
 }

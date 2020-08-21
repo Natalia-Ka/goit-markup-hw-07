@@ -299,7 +299,7 @@ img {
   margin: 0 auto;
 }
 
-.features, .section {
+.work, .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -310,7 +310,7 @@ img {
   list-style: none;
 }
 
-.work-title {
+.features-title, .work-title, .about-us-title, .clients-title {
   margin-top: 0;
   margin-bottom: 50px;
   color: #212121;
@@ -395,8 +395,7 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.site-nav .menu-link:hover, .site-nav .menu-link:focus {
   color: #2196F3;
 }
 
@@ -433,8 +432,7 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-contacts:hover,
-.menu-contacts:focus {
+.menu-contacts:hover, .menu-contacts:focus {
   color: #2196F3;
 }
 
@@ -443,8 +441,7 @@ img {
   color: #757575;
 }
 
-.mail:hover,
-.mail:focus {
+.mail:hover, .mail:focus {
   color: #2196F3;
 }
 
@@ -458,8 +455,7 @@ img {
   color: #757575;
 }
 
-.phone:hover,
-.phone:focus {
+.phone:hover, .phone:focus {
   color: #2196F3;
 }
 
@@ -513,9 +509,8 @@ img {
   border-width: 0;
 }
 
-.btn-hero:hover,
-.btn-hero:focus {
-  background-color: #2196F3;
+.btn-hero:hover, .btn-hero:focus {
+  background-color: #188CE8;
 }
 
 .backdrop {
@@ -581,8 +576,7 @@ img {
   padding: 6px;
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.icon-close:hover, .icon-close:focus {
   fill: #2196F3;
 }
 
@@ -774,19 +768,12 @@ textarea {
   border-width: 0;
 }
 
-.btn-submit:hover,
-.btn-submit:focus {
+.btn-submit:hover, .btn-submit:focus {
   background-color: #2196F3;
 }
 
-.features-title, .work-title, .about-us-title, .clients-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+.features {
+  padding-top: 94px;
 }
 
 .features-subtitle {
@@ -833,10 +820,6 @@ textarea {
 
 .features-list .item:not(:last-child) {
   margin-right: 30px;
-}
-
-.work {
-  padding-bottom: 94px;
 }
 
 .work-description {
@@ -980,8 +963,7 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon:hover,
-.link-icon:focus {
+.link-icon:hover, .link-icon:focus {
   background-color: #2196F3;
   color: #FFFFFF;
 }
@@ -1022,8 +1004,7 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover, .clients-link:focus {
   border-color: #2196F3;
   color: #2196F3;
 }
@@ -1097,12 +1078,6 @@ textarea {
   fill: currentColor;
 }
 
-.sm-link:hover,
-.sm-link:focus {
-  background-color: #2196F3;
-  color: #FFFFFF;
-}
-
 .sm-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1124,6 +1099,11 @@ textarea {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sm-link:hover, .sm-link:focus {
+  background-color: #2196F3;
+  color: #FFFFFF;
 }
 
 .footer-social .item-sm:not(:last-child) {
@@ -1231,8 +1211,7 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-filters-link:hover,
-.portfolio-filters-link:focus {
+.portfolio-filters-link:hover, .portfolio-filters-link:focus {
   background-color: #2196F3;
   color: #FFFFFF;
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
@@ -1330,6 +1309,11 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-link:hover, .portfolio-link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1354,12 +1338,6 @@ textarea {
   border-top: none;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.portfolio-link:hover,
-.portfolio-link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-projects .item:nth-child(3n) {

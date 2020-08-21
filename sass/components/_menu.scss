@@ -45,11 +45,11 @@
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.menu-link:hover,
-.menu-link:focus{
-    color: $accent-color;
+    &:hover,
+    &:focus{
+        color: $accent-color; 
+    }
 }
 
 .site-nav .active{
@@ -82,39 +82,40 @@
     transition-property: all;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.menu-contacts:hover,
-.menu-contacts:focus{
-    color: $accent-color;
+    &:hover,
+    &:focus{
+        color: $accent-color;  
+    }
 }
-
 
 .mail{
     display: block;
     color: $primary-text-color;
+
+    &:hover,
+    &:focus{
+        color: $accent-color;
+    }
 }
 
-.mail:hover,
-.mail:focus{
-    color: $accent-color;
-}
+
 
 .icon-envelope{
     fill: currentColor;
     margin-right: 2.8px;
 }
 
-
 .phone{
     display: block;
     color: $primary-text-color;
+
+    &:hover,
+    &:focus{
+        color: $accent-color; 
+    }
 }
 
-.phone:hover,
-.phone:focus{
-    color: $accent-color;
-}
 
 .icon-smartfon{
     fill: currentColor;
