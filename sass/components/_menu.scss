@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.main-nav{
-    @extend %container;
-}
-
 .site-nav{
     @extend %list;
 }
