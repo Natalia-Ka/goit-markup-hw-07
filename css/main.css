@@ -292,13 +292,6 @@ img {
   display: block;
 }
 
-.main-nav, .features, .work, .section, .footer {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .work, .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -318,6 +311,13 @@ img {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .logo {

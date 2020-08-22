@@ -4,8 +4,7 @@
 
 .footer{
     display: flex;
-    align-items: baseline;
-    @extend %container;      
+    align-items: baseline;    
 }
 
 .footer-address-contacts{
