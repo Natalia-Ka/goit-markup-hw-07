@@ -484,8 +484,8 @@ img {
   margin-top: 0;
   padding-top: 200px;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-img.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header-img.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/new-hero-pic.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/new-hero-pic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -769,7 +769,7 @@ textarea {
 }
 
 .btn-submit:hover, .btn-submit:focus {
-  background-color: #2196F3;
+  background-color: #188CE8;
 }
 
 .features {
