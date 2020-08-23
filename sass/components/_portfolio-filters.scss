@@ -29,6 +29,7 @@
 .portfolio-filters{
     display:flex;
     justify-content: center;
+    @extend %list;
 }
 
 .portfolio-filters .item:not(:last-child){
