@@ -297,7 +297,7 @@ img {
   padding-bottom: 94px;
 }
 
-.site-nav, .contacts-nav, .features-list, .work-list, .about-us-list, .about-us-sm, .client-list, .footer-social, .portfolio-filters {
+.site-nav, .contacts-nav, .features-list, .work-list, .about-us-list, .about-us-sm, .client-list, .footer-social, .portfolio-filters, .portfolio-projects {
   padding: 0;
   margin: 0;
   list-style: none;
